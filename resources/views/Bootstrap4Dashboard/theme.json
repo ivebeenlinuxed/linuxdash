@@ -1,0 +1,6 @@
+{
+    "name": "Bootstrap4Dashboard",
+    "extends": "",
+    "asset-path": "Bootstrap4Dashboard",
+	"version": "0.1.0"
+}

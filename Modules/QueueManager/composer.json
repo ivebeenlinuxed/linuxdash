@@ -1,0 +1,30 @@
+{
+    "name": "ivebeenlinuxed/linuxdash-queuemanager",
+    "description": "A GUI for managing Laravel Queues",
+    "authors": [
+        {
+            "name": "Will Tinsdeall",
+            "email": "will@tinsdeall.co.uk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\QueueManager\\Providers\\QueueManagerServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        },
+		"archive": "http://www.github.com/ivebeenlinuxed/linuxdash-queuemanager/archive/",
+		"latest": "https://raw.githubusercontent.com/ivebeenlinuxed/linuxdash-queuemanager/master/composer.json",
+		"changelog": {
+			"0.1.0": "Initial Release"
+		}
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\QueueManager\\": ""
+        }
+    }
+}

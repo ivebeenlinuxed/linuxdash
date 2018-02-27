@@ -1,0 +1,16 @@
+{
+    "name": "QueueManager",
+    "alias": "queuemanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\QueueManager\\Providers\\QueueManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

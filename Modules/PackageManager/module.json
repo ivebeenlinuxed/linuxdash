@@ -1,0 +1,16 @@
+{
+    "name": "PackageManager",
+    "alias": "packagemanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\PackageManager\\Providers\\PackageManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

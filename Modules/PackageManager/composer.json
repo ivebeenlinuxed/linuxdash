@@ -1,0 +1,32 @@
+{
+    "name": "ivebeenlinuxed/packagemanager",
+    "description": "A Package Manager for Linux Server Dashboard",
+    "authors": [
+        {
+            "name": "Will Tinsdeall",
+            "email": "will@tinsdeall.co.uk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\PackageManager\\Providers\\PackageManagerServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        },
+		"archive": "http://www.github.com/ivebeenlinuxed/linuxdash-packagemanager/archive/",
+		"latest": "https://raw.githubusercontent.com/ivebeenlinuxed/linuxdash-packagemanager/master/composer.json",
+		"changelog": {
+			"0.1.1": "Test the Update Sequence",
+			"0.1.0": "Initial Release"
+		}
+    },
+	"type": "laravel-module",
+    "autoload": {
+        "psr-4": {
+            "Modules\\PackageManager\\": ""
+        }
+    }
+}
